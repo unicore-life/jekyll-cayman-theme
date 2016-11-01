@@ -1,0 +1,11 @@
+---
+layout: default
+title:  "Welcome!"
+date:   2016-10-31 20:00:00
+categories: main
+---
+
+Welcome on unicore-life project site! You may find here useful tools for [UNICORE middleware][unicore] and [Unity IDM][unity].
+
+[unicore]: http://unicore.eu
+[unity]:   http://unity-idm.eu
