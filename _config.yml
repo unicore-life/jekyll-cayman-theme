@@ -12,6 +12,7 @@ author:
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-feed
 
 #Others
 markdown: kramdown
