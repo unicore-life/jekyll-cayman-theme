@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "PLGrid UNICORE Infrastructure"
+title:  "{{ site.name }} - PLGrid UNICORE Infrastructure"
 ---
 
 # PLGrid UNICORE infrastructure links
