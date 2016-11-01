@@ -7,7 +7,11 @@ categories: main
 
 ## Welcome on [unicore-life](https://unicore-life.github.io/) project site! 
 
-You may find here useful tools for [UNICORE middleware][unicore] and [Unity IDM][unity].
+The project contains useful tools for [UNICORE middleware][unicore] and [Unity IDM][unity] software. 
+Most of them are based on experience with UNICORE middleware deployment at [PLGrid][plgrid] and [ICM][icm].
+So, be also aware of short posts about UNICORE updates at PLGrid and ICM.
 
 [unicore]: http://unicore.eu
 [unity]:   http://unity-idm.eu
+[plgrid]:  http://plgrid.pl
+[icm]:     http://www.icm.edu.pl
