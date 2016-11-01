@@ -9,7 +9,7 @@ categories: main
 
 The project contains useful tools for [UNICORE middleware][unicore] and [Unity IDM][unity] software. 
 Most of them are based on experience with UNICORE middleware deployment at [PLGrid][plgrid] and [ICM][icm].
-So, be also aware of short posts about UNICORE updates at PLGrid and ICM.
+So, be also aware of short posts about UNICORE updates at [PLGrid][plgrid] and [ICM][icm].
 
 [unicore]: http://unicore.eu
 [unity]:   http://unity-idm.eu
