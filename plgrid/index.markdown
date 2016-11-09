@@ -17,6 +17,7 @@ W skład sajtu testowego wchodzą następujące usługi:
 *  Workflow i Servorch
 *  Unity IDM
 *  Accounting
+
 zapewniające dostęp do dwóch "wirtualnych" ośrodków obliczeniowych: PLG-ICM-TEST oraz PLG-NCU-TEST.
 
 Usługi sajtu zainstalowane są na 4 serwerach:
