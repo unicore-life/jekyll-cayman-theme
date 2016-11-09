@@ -33,7 +33,7 @@ Główny rejestr dostępny jest pod adresem:
 
     https://testbed.nebula.grid.icm.edu.pl:8080/TESTBED/services/Registry?res=default_registry
 
-Rejestry lokalne PLG-ICM-TEST i PLG-NCU-TEST dostępne są natomiast odpowienio pod adresami:
+Rejestry lokalne PLG-ICM-TEST i PLG-NCU-TEST dostępne są natomiast odpowiednio pod adresami:
 
     https://testbed.grid.icm.edu.pl:8080/PLG-ICM-TEST/services/Registry?res=default_registry
 
