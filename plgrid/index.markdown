@@ -22,10 +22,10 @@ zapewniające dostęp do dwóch "wirtualnych" ośrodków obliczeniowych: PLG-ICM
 
 Usługi sajtu zainstalowane są na 4 serwerach:
 
-*  testbed.nebula.grid.icm.edu.pl: Gateway, Registry, Workflow, Servorch
-*  testbed.grid.icm.edu.pl: Gateway, Unity, Unicore/X, TSI
-*  unicore.studmat.umk.pl: Gateway, Unicore/X, TSI
-*  alces.grid.icm.edu.pl: Acconting
+* **testbed.nebula.grid.icm.edu.pl**: Gateway, Registry, Workflow, Servorch
+* **testbed.grid.icm.edu.pl**: Gateway, Unity, Unicore/X, TSI
+* **unicore.studmat.umk.pl**: Gateway, Unicore/X, TSI
+* **alces.grid.icm.edu.pl**: Acconting
 
 Na każdym serwerze jest ponadto zainstalowana lokalna baza danych (MySQL), wykorzystywana przez działace na nim usługi.
 
