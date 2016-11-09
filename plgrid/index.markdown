@@ -27,7 +27,7 @@ Usługi sajtu zainstalowane są na 4 serwerach:
 * **unicore.studmat.umk.pl**: Gateway, Unicore/X, TSI
 * **alces.grid.icm.edu.pl**: Acconting
 
-Na każdym serwerze jest ponadto zainstalowana lokalna baza danych (MySQL), wykorzystywana przez działace na nim usługi.
+Na każdym serwerze jest ponadto zainstalowana lokalna baza danych (MySQL), wykorzystywana przez działające na nim usługi.
 
 Główny rejestr dostępny jest pod adresem:
 
