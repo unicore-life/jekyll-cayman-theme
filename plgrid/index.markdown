@@ -31,22 +31,22 @@ Na każdym serwerze jest ponadto zainstalowana lokalna baza danych (MySQL), wyko
 
 Główny rejestr dostępny jest pod adresem:
 
-https://testbed.nebula.grid.icm.edu.pl:8080/TESTBED/services/Registry?res=default_registry
+    https://testbed.nebula.grid.icm.edu.pl:8080/TESTBED/services/Registry?res=default_registry
 
 Rejestry lokalne PLG-ICM-TEST i PLG-NCU-TEST dostępne są natomiast odpowienio pod adresami:
 
-https://testbed.grid.icm.edu.pl:8080/PLG-ICM-TEST/services/Registry?res=default_registry
+    https://testbed.grid.icm.edu.pl:8080/PLG-ICM-TEST/services/Registry?res=default_registry
 
 oraz
 
-https://unicore.studmat.umk.pl:8080/PLG-NCU-TEST/services/Registry?res=default_registry
+    https://unicore.studmat.umk.pl:8080/PLG-NCU-TEST/services/Registry?res=default_registry
 
 Zadania zlecane w ośrodku PLG-NCU-TEST wykonywane są na lokalnym dwuwęzłowym klastrze zbudowanym w oparciu o wirtualizację (system kolejkowy Torque), natomiast zlecane w ośrodku PLG-ICM-TEST - na klastrze HYDRA w ICM (system kolejkowey SLURM).
 
 Uwierzytelnianie oparte jest w całości o testową instancję Unity - nie są wykorzystywane inne instancje Unity lub UVOS. Zlecanie zadań testowych jest możliwe dla użytkowników posiadających konto w ldapie ICM lub dodanych lokalnie do bazy Unity (dla użytkowników nie posiadających konta w ldapie). Usługi nie są dostępne dla użytkowników posiadających jedynie konto w ldapie PL-Grid. Niezbędne jest również posiadanie certyfikatu osobistego, zgodnego z wymaganiami PL-Grid. Formularz logowania do Unity dostępny jest pod adresem:
 
-https://testbed.grid.icm.edu.pl:2443/user/home
+    https://testbed.grid.icm.edu.pl:2443/user/home
 
 natomiast panel admina:
 
-https://testbed.grid.icm.edu.pl:2443/idm/admin
+    https://testbed.grid.icm.edu.pl:2443/idm/admin
