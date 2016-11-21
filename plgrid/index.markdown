@@ -11,46 +11,50 @@ ICM users may also see [ICM user manual](https://www.icm.edu.pl/kdm/Podr%C4%99cz
 
 ## Testbed UNICORE Infrastructure
 
-W skład sajtu testowego wchodzą następujące usługi:
+There are following services in the test site:
 *  Registry
-*  2 instancje Unicore/X oraz 2 instancje TSI
+*  two instaces of Unicore/X or two instances of TSI
 *  Workflow i Servorch
 *  Unity IDM
 *  Accounting
 
-zapewniające dostęp do dwóch "wirtualnych" ośrodków obliczeniowych: PLG-ICM-TEST oraz PLG-NCU-TEST.
+Services allows access to two virtual sites: PLG-ICM-TEST and PLG-NCU-TEST.
 
-Usługi sajtu zainstalowane są na 4 serwerach:
+Services of the test site are installed on following four servers:
 
 * **testbed.nebula.grid.icm.edu.pl**: Gateway, Registry, Workflow, Servorch
 * **testbed.grid.icm.edu.pl**: Gateway, Unity, Unicore/X, TSI
 * **unicore.studmat.umk.pl**: Gateway, Unicore/X, TSI
 * **alces.grid.icm.edu.pl**: Acconting
 
-Na każdym serwerze jest ponadto zainstalowana lokalna baza danych (MySQL), wykorzystywana przez działające na nim usługi.
+On each server there is local data base (mysql), which is used by installed services.
 
-Główny rejestr dostępny jest pod adresem:
+
+The main register is available on:
 
     https://testbed.nebula.grid.icm.edu.pl:8080/TESTBED/services/Registry?res=default_registry
 
-Rejestry lokalne PLG-ICM-TEST i PLG-NCU-TEST dostępne są natomiast odpowiednio pod adresami:
+Local registres PLG-ICM-TEST and PLG-NCU-TEST are available on:
 
     https://testbed.grid.icm.edu.pl:8080/PLG-ICM-TEST/services/Registry?res=default_registry
 
-oraz
+and
 
     https://unicore.studmat.umk.pl:8080/PLG-NCU-TEST/services/Registry?res=default_registry
 
-Zadania zlecane w ośrodku PLG-NCU-TEST wykonywane są na lokalnym dwuwęzłowym klastrze zbudowanym w oparciu o wirtualizację (system kolejkowy Torque), natomiast zlecane w ośrodku PLG-ICM-TEST - na klastrze HYDRA w ICM (system kolejkowey SLURM).
-
-Uwierzytelnianie oparte jest w całości o testową instancję Unity - nie są wykorzystywane inne instancje Unity lub UVOS. Zlecanie zadań testowych jest możliwe dla użytkowników posiadających konto w ldapie ICM lub dodanych lokalnie do bazy Unity (dla użytkowników nie posiadających konta w ldapie). Usługi nie są dostępne dla użytkowników posiadających jedynie konto w ldapie PL-Grid. Niezbędne jest również posiadanie certyfikatu osobistego, zgodnego z wymaganiami PL-Grid. Formularz logowania do Unity dostępny jest pod adresem:
+Jobs placed in PLG-NCU-TEST site are executed on local two-node cluster based on virtualization (queque system - Torque) and jobs placed in PLG-ICM-TEST site are executed on HYDRA cluster in ICM (queque system - SLURM).
+	
+The authorization is based on test instance of Unity - other istances of Unity and UVOS are not used.
+Executing jobs on the test site are allowed only for users who have account in the ICM ldap or who are added to the local Unity database (for users who haven't an ldap account). Services are not available for users who have account only in the PL-Grid account. All users must have a personal certificate, which is validated by PL-Grid.
+Login form is available on:
+	
 
     https://testbed.grid.icm.edu.pl:2443/icm/home
 
-natomiast panel admina:
+The admin planel:
 
     https://testbed.grid.icm.edu.pl:2443/idm/admin
     
-Do uwierzytelniania w kliencie UCC lub URC należy wykorzystać poniższy adres:
+To authenticate in UCC or URC client you have to use the following link:
 
     https://testbed.grid.icm.edu.pl:2443/testbed/saml2unicoreidp-soap/AuthenticationService
