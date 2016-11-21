@@ -45,8 +45,12 @@ Zadania zlecane w ośrodku PLG-NCU-TEST wykonywane są na lokalnym dwuwęzłowym
 
 Uwierzytelnianie oparte jest w całości o testową instancję Unity - nie są wykorzystywane inne instancje Unity lub UVOS. Zlecanie zadań testowych jest możliwe dla użytkowników posiadających konto w ldapie ICM lub dodanych lokalnie do bazy Unity (dla użytkowników nie posiadających konta w ldapie). Usługi nie są dostępne dla użytkowników posiadających jedynie konto w ldapie PL-Grid. Niezbędne jest również posiadanie certyfikatu osobistego, zgodnego z wymaganiami PL-Grid. Formularz logowania do Unity dostępny jest pod adresem:
 
-    https://testbed.grid.icm.edu.pl:2443/user/home
+    https://testbed.grid.icm.edu.pl:2443/icm/home
 
 natomiast panel admina:
 
     https://testbed.grid.icm.edu.pl:2443/idm/admin
+    
+Do uwierzytelniania w kliencie UCC lub URC należy wykorzystać poniższy adres:
+
+    https://testbed.grid.icm.edu.pl:2443/testbed/saml2unicoreidp-soap/AuthenticationService
