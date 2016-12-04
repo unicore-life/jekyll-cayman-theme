@@ -12,7 +12,7 @@ Like usual change log may be read [here](https://www.unicore.eu/changes/portal).
 The version has been updated to latest Vaadin framework and allows for customization
 of welcome image.
 
-Happy browsing: [*unicore-portal.grid.icm.edu.pl*][uportal];)
+Happy browsing: [*unicore-portal.grid.icm.edu.pl*][uportal] ;)
 
 [plgrid]:  http://plgrid.pl
 [icm]:     http://icm.edu.pl
