@@ -8,10 +8,10 @@ categories: main
 ## UNICORE components updated to v7.7.0 at TASK (PLGrid)
 
 UNICORE components at [TASK][task] site have been updated to latest version 7.7.0 in [PLGrid][plgrid].
-Along with the update, site has switch from deprecated UVOS attributes source into [Unity IDM][unity] attributes 
-source - central compoment responsible for passing user data needed by UNICORE security model.
+Along with the update, site has been switched from deprecated UVOS attributes source into [Unity IDM][unity] attributes 
+source - current central compoment responsible for passing user data needed by UNICORE security model.
 
-Like usual, update should be transparent for the users (despite the downtime which occurred during update).
+Like usual, everything should work like before, so it is transparent for the users (despite the downtime which occurred during the update).
 
 By the way, happy new year with UNICORE for everyone:)
 
