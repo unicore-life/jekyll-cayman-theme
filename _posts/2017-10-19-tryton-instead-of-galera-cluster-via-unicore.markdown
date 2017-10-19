@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title:  "Decomission of GALERA cluster at TASK, enabling TRYTON instead"
