@@ -7,14 +7,14 @@ categories: main
 
 ## Decomission of GALERA cluster at TASK and enable access to TRYTON via UNICORE
 
-With end of October 2017, [Galera cluster][task-galera] at TASK is beeing decomissioned. 
+With end of October 2017, [Galera cluster][task-galera] at [TASK][task] is beeing decomissioned. 
 As of now, all of [PLGrid][plgrid] users may use [Tryton cluster][task-tryton] instead.
 
-UNICORE users should now see entry TASK-TRYTON in UNICORE registry which allows seemless access to TASK site.
-Site TASK-GALERAPLUS is no longer available and all UNICORE services allowing access to [Galera cluster][task-galera] 
+UNICORE users should now see entry *TASK-TRYTON* in UNICORE registry which allows seemless access to TASK site.
+Site *TASK-GALERAPLUS* is no longer available and all UNICORE services allowing access to [Galera cluster][task-galera] 
 have been disabled.
 
-UNICORE site TASK-TRYTON has been deployed with version 7.8.0, latest release of UNICORE at the moment. 
+UNICORE site *TASK-TRYTON* has been deployed with version 7.8.0, latest release of UNICORE at the moment. 
 Batch system is now based on [Slurm][slurm] and is fully configured with [Unity IDM][unity] as an attributes source. 
 Also, as of now, site is available in [UNICORE Portal][unicore-portal].
 
